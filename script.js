@@ -13,10 +13,26 @@ function store()
     if (typeof(Storage) !== "undefined") 
         
     {
+        var nameOfIdeator= document.getElementById("nameOfIdeator");
+        var ideaGiven = document.getElementById("ideaGiven");
+        
+        var user={
+        
+            name: nameOfIdeator,
+            idea: ideaGiven
+            
+        }
+        
+        console.log(user);
+        
         // Store
-        localStorage.setItem("", "Ssdfg");
+        localStorage.setItem('user', 'user');
+        
+            
+        }
+
         // Retrieve
-        document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+        
     } 
     
     

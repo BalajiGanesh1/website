@@ -104,25 +104,25 @@
                                       
                                       </div>
                                                    <div class= "dummy">
-                                                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <br>
+                                                      <!-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <br>
                                                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quconsequat, leo eget bibendum sodales, augue velit cursus nunc, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <br>
-                                                       Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quconsequat, leo eget bibendum sodales, augue velit cursus nunc,
+                                                       Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quconsequat, leo eget bibendum sodales, augue velit cursus nunc,  -->
                                                      
                                                        <div class="Form">
                                                        
                                                            <button class="open-button" onclick="openForm()">Am Tinging</button>
                                                            
                                                            <div class="form-popup" id="myForm">
-                                                               <form action="/action_page.php">
+                                                               <form>
                                                                    <h1>TingBox</h1>
 
                                                                    <label for="name"><b>Name</b></label>
-                                                                   <input type="text" placeholder="Enter Name" name="name" required>
+                                                                   <input type="text" id="nameOfIdeator" placeholder="Enter Name" name="name" required>
 
                                                                    <label for="idea"><b>Your Idea</b></label>
-                                                                   <input type="text" placeholder="Enter Idea" name="idea" required>
+                                                                   <input type="text" id="ideaGiven" placeholder="Enter Idea" name="idea" required>
 
-                                                                   <button type="submit" class="btn">Send</button>
+                                                                   <button type="submit" class="btn" onclick="store()">Send</button>
                                                                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
                                                                </form>
                                                            </div>
